@@ -1,0 +1,44 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-size: 13px;
+	font-family: tahoma;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+#header {
+	width: 100%;
+	background: #000;
+	float: left;
+}
+#header_center {
+	width: 1146px;
+	margin: 0px auto;
+	padding-top: 18px;
+	padding-bottom: 34px;
+}
+#logo {
+	width: 294px;
+	float: left;
+}
+#sub_menu {
+	width: 742px;
+	float: left;
+}
+#sub_menu ul li {
+	float: left;
+	padding: 12px;
+	padding-bottom: 22px;
+}
+#sub_menu ul li:hover {
+	border-bottom: 1px solid red;
+}
+#sub_menu ul li a {
+	color: white;
+}
